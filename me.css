@@ -1,0 +1,82 @@
+h1{
+    background-color: black;
+    color: beige;
+}
+.py-3{
+    padding: 20px 0;
+}
+.bg-light{
+    background-color:azure;
+    
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow:auto ;
+    padding: 0 20px;
+    text-align: left;
+}
+#about inf.info-left{
+    float: left;
+    width: 50px;
+    min-height:100%;
+    text-align: left;
+
+}
+.heading1{
+    font-size: 60px;
+    align-items: initial;
+}
+.text-primary{
+    color: darkblue;
+}
+p{
+    display: block;
+    margin-block-start:0;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end:0px ;
+    font-size: 30px;
+
+}
+#about info.info-right{
+    float: right;
+    width: 50px;
+    min-height:100%;
+}
+#about info.info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+.img-bg{
+    border-radius: 1000%;
+    float: right;
+    max-width: 350px;
+    
+}
+img {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+  }
+  h2{
+    font-size: 50px;
+  }
+  .column {
+    float: left;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    border-radius: 50%;
+  }
+  
+
+  
+  
+

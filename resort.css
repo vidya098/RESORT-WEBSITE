@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display:block;
+}
+
+#navbar{
+    background:black;
+    color:white;
+    overflow: auto;
+}
+#navbar a{
+color:white;
+}
+#navbar UL{
+    float: right;
+}
+#navbar UL li{
+    float:left;
+}
+#navbar UL li a{
+    display: block;
+    padding:20px;
+    text-align: centre;
+    
+}
+.logo{
+    width:90px;
+    cursor: pointer;
+
+}
+.element{
+    margin: auto;
+    max-width: 110px;
+    padding: 0 20px;
+    width:90px;
+    cursor:pointer;
+}
+#mainpage{
+    background-image:url(background1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:800px;
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        color: white;
+      }
+      .btn{
+        color: white;
+        background-color: black;
+        text-align: center;
+        width:60px;
+        height:60px;
+      }
+
+
+#mainpage.mainpage-content{
+    color:azure;
+    text-align: center;
+    padding-top:500px;
+}
+#mainpage.mainpage-content h1{
+    font-size: 75px;
+    line-height: 1.2em;
+}
+#mainpage.mainpage-content p{
+    padding-bottom: 20px;
+    line-height:1.7em;
+}
+#home{
+    height:300px;
+}
+.page{
+    background: black;
+    color:aqua;
+}
+#home.home-img{
+    float:left;
+    width:50%;
+    background-image: url(person3.jpg);
+    background-image:no-repeat;
+    min-height:100%;
+}
+#home.home-content{
+    float:right;
+    width:50%;
+    height:100%;
+    text-align:center;
+    padding:50px 30px;
+    overflow:hidden;
+
+}
+#home.home-content p{
+    padding-bottom: 10px;
+}
+
+

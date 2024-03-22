@@ -1,0 +1,74 @@
+
+<html>
+    <head>
+    <style>
+        * {box-sizing: border-box;
+          background-color:lightblue;
+        }
+
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.icon {
+  padding: 30px;
+  background: dodgerblue;
+  color: white;
+  min-width: 10px;
+  text-align: center;
+}
+.input-field {
+  width: 50%;
+  padding: 10px;
+  outline: none;
+}
+.input-field:focus {
+  border: 1px solid dodgerblue;
+}
+.btn {
+  background-color:blue;
+  color:white;
+  padding: 15px ;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+  width:30px;
+}
+h2{
+    margin-bottom: 60px;
+    color:white;
+    font-size: 50px;
+    background-color: black;
+}
+
+    </style>
+
+</head>
+<body>
+    <form action="/action_page.php">
+    <h2 align="center" >CONTACT US FORM</h2>
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="text" placeholder="Username" name="usrnm">
+    </div>
+  
+    <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input class="input-field" type="text" placeholder="Email" name="email">
+    </div>
+  
+    <div class="input-container">
+      <i class="fa fa-key icon"></i>
+      <input class="input-field" type="LOCATION" placeholder="LOCATION" name="psw">
+    </div>
+  
+    <button type="submit" class="btn">CONTACT</button>
+  </form>
+  </body>
